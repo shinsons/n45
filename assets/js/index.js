@@ -7,10 +7,10 @@ var timeEl = document.querySelector('h1');
 var nextEl = document.querySelector('div.next');
 var doneEl = document.querySelector('h3.done');
 var whistle = new Howl({
-  src: ['/assets/sound/start.wav']
+  src: ['assets/sound/start.wav']
 });
 var rest = new Howl({
-  src: ['/assets/sound/finish.wav']
+  src: ['assets/sound/finish.wav']
 });
 
 class WOD { 
