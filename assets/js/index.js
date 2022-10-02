@@ -1,4 +1,6 @@
 var app = document.querySelector('div.app');
+var titleEl = document.querySelector('title');
+var beginEl = document.querySelector('div.begin');
 var summaryEl = document.querySelector('div.summary');
 var timerEl = document.querySelector('div.timer-container');
 var descriptionEl = document.querySelector('div.description');
@@ -19,6 +21,10 @@ class WOD {
     this.wod = db_entry;
     this.currentStation = undefined;
     this.lastTick = undefined;
+    if(this.wod !== undefined) {
+      this.list();
+      titleEl.innerHTML = 'Appy Gym - ' + new Date(); 
+    }
   }
 
   list() {
@@ -28,6 +34,7 @@ class WOD {
     }); 
     listEl.innerHTML = listContent.join('\n');
     descriptionEl.innerHTML = this.wod.description;
+    addRemoveClass([beginEl], 'hide');
     addRemoveClass([summaryEl], 'hide', 'remove');
     addRemoveClass([summaryEl], 'show');
   }
@@ -80,7 +87,11 @@ class WOD {
     }
     requestAnimationFrame(this.update.bind(this));
   }
-  
+
+ 	hydrate() {
+
+	}
+ 
   done() {
     addRemoveClass([app], 'red', 'remove');
     addRemoveClass([app], 'green');
@@ -108,5 +119,5 @@ function getWOD() {
     '-' + today.getDate();
   return db[wod_key]
 };
+
 var thisWod = new WOD(getWOD());
-thisWod.list();
