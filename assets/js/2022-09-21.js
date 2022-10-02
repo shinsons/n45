@@ -39,7 +39,7 @@ var db = {
     { name: 'reverse half-burpee', work: 45, rest: 15 },
     { name: 'jump squats', work: 45, rest: 15 },
     { name: 'bear crawls', work: 45, rest: 15 },
-    { name: '10 high knees + 2 burpees', work: 45, rest: 15 }
+    { name: '10 high knees + 2 burpees', work: 45, rest: 0 }
   ]
 }, 
 '2022-9-26': {
@@ -82,7 +82,7 @@ var db = {
     { name: 'Pod 3: spiders', work: 60, rest: 30 },
     { name: 'Pod 3: alternating rear lunge w/ DB curl', work: 60, rest: 30 },
     { name: 'Pod 3: bosu ball burpees', work: 60, rest: 30 },
-    { name: 'Pod 3: spiders', work: 60, rest: 30 }
+    { name: 'Pod 3: spiders', work: 60, rest: 0 }
   ]
 }, 
 '2022-9-27': {
@@ -125,7 +125,7 @@ var db = {
     { name: 'V sit', work: 45, rest: 15 },
     { name: 'skull crushers', work: 45, rest: 15 },
     { name: 'dips', work: 45, rest: 15 },
-    { name: 'reverse crunch', work: 45, rest: 15 }
+    { name: 'reverse crunch', work: 45, rest: 0 }
   ]
 },
 '2022-9-21': {
@@ -161,14 +161,14 @@ var db = {
     { name: 'crab walk', work:30, rest: 10 },
     { name: 'resistance band side walk', work:30, rest: 10 },
     { name: 'side lunge w/ goblet racked DB', work:20, rest: 60 },
-    { name: 'sandbell throwdown', work:20, rest: 60 },
-    { name: 'bent over row', work:20, rest: 60 },
-    { name: 'pushup to DB deadlift', work:20, rest: 60 },
-    { name: 'bent over reverse fly', work:20, rest: 60 },
-    { name: 'reverse crunch', work:20, rest: 60 },
-    { name: 'leg raise', work:20, rest: 60 },
-    { name: 'crab walk', work:20, rest: 60 },
-    { name: 'resistance band side walk', work:20, rest: 60 }
+    { name: 'sandbell throwdown', work:20, rest: 20 },
+    { name: 'bent over row', work:20, rest: 20 },
+    { name: 'pushup to DB deadlift', work:20, rest: 20 },
+    { name: 'bent over reverse fly', work:20, rest: 20 },
+    { name: 'reverse crunch', work:20, rest: 20 },
+    { name: 'leg raise', work:20, rest: 20 },
+    { name: 'crab walk', work:20, rest: 20 },
+    { name: 'resistance band side walk', work:20, rest: 0 }
   ]
 },
 '2022-9-22': {
@@ -223,7 +223,7 @@ var db = {
     { name: 'Pod 4: single leg glute bridge', work: 40, rest: 30 },
     { name: 'Pod 4: flutter kicks', work: 20, rest: 10 },
     { name: 'Pod 4: reverse crunch', work: 20, rest: 10 },
-    { name: 'Pod 4: single leg glute bridge', work: 20, rest: 10 }
+    { name: 'Pod 4: single leg glute bridge', work: 20, rest: 0 }
   ]
 }, 
 '2022-9-23': {
@@ -266,7 +266,7 @@ var db = {
     { name: 'resistance band lateral plank walk', work: 45, rest: 15 },
     { name: 'resistance band overhead press', work: 45, rest: 15 },
     { name: 'resistance band chest expansion', work: 45, rest: 15 },
-    { name: 'lateral raises', work: 45, rest: 15 },
+    { name: 'lateral raises', work: 45, rest: 0 }
   ]
 },
 '2022-9-24': {
@@ -341,6 +341,6 @@ var db = {
     { name: 'burpees', work: 20, rest: 10 },
     { name: 'lunges', work: 20, rest: 10 },
     { name: 'russian twists', work: 20, rest: 10 },
-    { name: 'mary katherines', work: 20, rest: 10 }
+    { name: 'mary katherines', work: 20, rest: 0 }
   ]
 }};

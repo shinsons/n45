@@ -48,7 +48,7 @@ var db = {
 		{ name:	'sit out w/ reverse half burpee', work: 35, rest: 20 },
 		{ name:	'sit out w/ reverse half burpee', work: 35, rest: 20 },
 		{ name:	'decline pushups' work: 35, rest: 20 },
-		{ name:	'decline pushups' work: 35, rest: 20 },
+		{ name:	'decline pushups' work: 35, rest: 0 }
   ]
 }, 
 '2022-10-03': {
@@ -91,7 +91,7 @@ var db = {
    { name: 'Pod 3: shrimp squat' work: 40, rest: 20 },
    { name: 'Pod 3: db hammer curls', work: 40, rest: 20 },
    { name: 'Pod 3: bench seated dumbell curls', work: 40, rest: 20 },
-   { name: 'Pod 3: shrimp squat' work: 40, rest: 20 }
+   { name: 'Pod 3: shrimp squat' work: 40, rest: 0 }
   ]
 }, 
 '2022-10-04': {
@@ -134,7 +134,7 @@ var db = {
     { name: 'wide grip barbell overhead press', work: 45, rest:15 },
     { name: 'weighted side bends (barbell rear racked)', work: 45, rest:15 },
     { name: 'hip trusters', work: 45, rest:15 },
-    { name: 'lateral plank w/ db raise', work: 45, rest:15 }
+    { name: 'lateral plank w/ db raise', work: 45, rest:0 }
   ]
 },
 '2022-9-28': {
@@ -204,7 +204,7 @@ var db = {
     { name: 'low plank', work:20, rest: 20 },
     { name: 'russian twists', work:45, rest: 15 },
     { name: 'russian twists', work:30, rest: 15 },
-    { name: 'russian twists', work:20, rest: 0 },
+    { name: 'russian twists', work:20, rest: 0 }
   ]
 },
 '2022-9-29': {
@@ -233,6 +233,33 @@ var db = {
     { name: 'Pod 1: full bench leg pikes', work: 20, rest: 10 },
     { name: 'Pod 1: bench hop overs', work: 20, rest: 10 },
     { name: 'Pod 1: single leg glute bridge', work: 20, rest: 10 },
+    { name:	'Pod 2: step up to high knee', work: 60, rest: 20 },
+    { name:	'Pod 2: side-kick', work: 60, rest: 20 },
+    { name:	'Pod 2: squat sit ', work: 60, rest: 20 },
+    { name:	'Pod 2: step up to high knee', work: 40, rest: 30 },
+    { name:	'Pod 2: side-kick', work: 40, rest: 30 },
+    { name:	'Pod 2: squat sit ', work: 40, rest: 30 },
+    { name:	'Pod 2: step up to high knee', work: 20, rest: 10 },
+    { name:	'Pod 2: side-kick', work: 20, rest: 10 },
+    { name:	'Pod 2: squat sit ', work: 20, rest: 10 },
+    { name:	'Pod 3: alt. single leg squat', work: 60, rest: 20 },
+    { name:	'Pod 3: lateral hip raises', work: 60, rest: 20 },
+    { name:	'Pod 3: lateral step up', work: 60, rest: 20 },
+    { name:	'Pod 3: alt. single leg squat', work: 40, rest: 30 },
+    { name:	'Pod 3: lateral hip raises', work: 40, rest: 30 },
+    { name:	'Pod 3: lateral step up', work: 40, rest: 30 },
+    { name:	'Pod 3: alt. single leg squat', work: 20, rest: 10 },
+    { name:	'Pod 3: lateral hip raises', work: 20, rest: 10 },
+    { name:	'Pod 3: lateral step up', work: 20, rest: 10 },
+    { name:	'Pod 4: tuck jump', work: 60, rest: 20 },
+    { name:	'Pod 4: calf raises', work: 60, rest: 20 },
+    { name:	'Pod 4: skaters', work: 60, rest: 20 },
+    { name:	'Pod 4: tuck jump', work: 40, rest: 30 },
+    { name:	'Pod 4: calf raises', work: 40, rest: 30 },
+    { name:	'Pod 4: skaters', work: 40, rest: 30 },
+    { name:	'Pod 4: tuck jump', work: 20, rest: 10 },
+    { name:	'Pod 4: calf raises', work: 20, rest: 10 },
+    { name:	'Pod 4: skaters', work: 20, rest: 0 }
   ]
 }, 
 '2022-9-30': {
@@ -275,7 +302,7 @@ var db = {
 		{ name:	'renegade row', work: 45, rest: 15 },
 		{ name:	'lateral crunches', work: 45, rest: 15 },
 		{ name:	'lateral leg raises', work: 45, rest: 15 },
-		{ name:	'dumbell thrusters' work: 45, rest: 15 }
+		{ name:	'dumbell thrusters' work: 45, rest: 0 }
   ]
 },
 '2022-10-01': {
@@ -350,6 +377,6 @@ var db = {
 		{ name:	'diamond pushups', work: 20, rest: 10 },
 		{ name:	'lateral high plank', work: 20, rest: 10 },
 		{ name:	'reverse elbow plank', work: 20, rest: 10 },
-		{ name:	'mary katherines' work: 20, rest: 10 },
+		{ name:	'mary katherines' work: 20, rest: 0 }
   ]
 }};
