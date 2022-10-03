@@ -116,7 +116,7 @@ function getWOD() {
   const today = new Date();
   const wod_key = today.getFullYear() +
     '-' + new Number(today.getMonth() + 1) + 
-    '-' + today.getDate();
+    '-' + ('0' + today.getDate()).slice(-2);
   return db[wod_key]
 };
 

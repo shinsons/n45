@@ -29,8 +29,8 @@ var db = {
 		{ name:	'turkish get up', work: 35, rest: 20 },
 		{ name:	'sit out w/ reverse half burpee', work: 35, rest: 20 },
 		{ name:	'sit out w/ reverse half burpee', work: 35, rest: 20 },
-		{ name:	'decline pushups' work: 35, rest: 20 },
-		{ name:	'decline pushups' work: 35, rest: 20 },
+		{ name:	'decline pushups', work: 35, rest: 20 },
+		{ name:	'decline pushups', work: 35, rest: 20 },
 		{ name:	'incline pushups', work: 35, rest: 20 },
 		{ name:	'incline pushups', work: 35, rest: 20 },
 		{ name:	'single leg squat w/ db front-raise hold', work: 35, rest: 20 },
@@ -47,8 +47,8 @@ var db = {
 		{ name:	'turkish get up', work: 35, rest: 20 },
 		{ name:	'sit out w/ reverse half burpee', work: 35, rest: 20 },
 		{ name:	'sit out w/ reverse half burpee', work: 35, rest: 20 },
-		{ name:	'decline pushups' work: 35, rest: 20 },
-		{ name:	'decline pushups' work: 35, rest: 0 }
+		{ name:	'decline pushups', work: 35, rest: 20 },
+		{ name:	'decline pushups', work: 35, rest: 0 }
   ]
 }, 
 '2022-10-03': {
@@ -85,13 +85,13 @@ var db = {
    { name: 'Pod 2: supine bench reverse flutter kicks', work: 40, rest: 20 },
    { name: 'Pod 3: db hammer curls', work: 40, rest: 20 },
    { name: 'Pod 3: bench seated dumbell curls', work: 40, rest: 20 },
-   { name: 'Pod 3: shrimp squat' work: 40, rest: 20 },
+   { name: 'Pod 3: shrimp squat', work: 40, rest: 20 },
    { name: 'Pod 3: db hammer curls', work: 40, rest: 20 },
    { name: 'Pod 3: bench seated dumbell curls', work: 40, rest: 20 },
-   { name: 'Pod 3: shrimp squat' work: 40, rest: 20 },
+   { name: 'Pod 3: shrimp squat', work: 40, rest: 20 },
    { name: 'Pod 3: db hammer curls', work: 40, rest: 20 },
    { name: 'Pod 3: bench seated dumbell curls', work: 40, rest: 20 },
-   { name: 'Pod 3: shrimp squat' work: 40, rest: 0 }
+   { name: 'Pod 3: shrimp squat', work: 40, rest: 0 }
   ]
 }, 
 '2022-10-04': {
@@ -138,7 +138,7 @@ var db = {
   ]
 },
 '2022-9-28': {
-  description: '9 exercises, 3 reps. 40/15, 30/15, 20/20. all reps in a station. 2 laps,
+  description: '9 exercises, 3 reps. 40/15, 30/15, 20/20. all reps in a station. 2 laps',
   workout: [
 		'wipers',
 		'situp',
@@ -284,7 +284,7 @@ var db = {
 		{ name:	'renegade row', work: 45, rest: 15 },
 		{ name:	'lateral crunches', work: 45, rest: 15 },
 		{ name:	'lateral leg raises', work: 45, rest: 15 },
-		{ name:	'dumbell thrusters' work: 45, rest: 15 },
+		{ name:	'dumbell thrusters', work: 45, rest: 15 },
 		{ name:	'single arm alt. dumbell snatch to press', work: 45, rest: 15 },
 		{ name:	'dumbell curl w/ reverse curtsey squat', work: 45, rest: 15 },
 		{ name:	'pike pushups', work: 45, rest: 15 },
@@ -293,7 +293,7 @@ var db = {
 		{ name:	'renegade row', work: 45, rest: 15 },
 		{ name:	'lateral crunches', work: 45, rest: 15 },
 		{ name:	'lateral leg raises', work: 45, rest: 15 },
-		{ name:	'dumbell thrusters' work: 45, rest: 15 },
+		{ name:	'dumbell thrusters', work: 45, rest: 15 },
 		{ name:	'single arm alt. dumbell snatch to press', work: 45, rest: 15 },
 		{ name:	'dumbell curl w/ reverse curtsey squat', work: 45, rest: 15 },
 		{ name:	'pike pushups', work: 45, rest: 15 },
@@ -302,7 +302,7 @@ var db = {
 		{ name:	'renegade row', work: 45, rest: 15 },
 		{ name:	'lateral crunches', work: 45, rest: 15 },
 		{ name:	'lateral leg raises', work: 45, rest: 15 },
-		{ name:	'dumbell thrusters' work: 45, rest: 0 }
+		{ name:	'dumbell thrusters', work: 45, rest: 0 }
   ]
 },
 '2022-10-01': {
@@ -343,7 +343,7 @@ var db = {
 		{ name:	'diamond pushups', work: 40, rest: 20 },
 		{ name:	'lateral high plank', work: 40, rest: 20 },
 		{ name:	'reverse elbow plank', work: 40, rest: 20 },
-		{ name:	'mary katherines' work: 40, rest: 20 },
+		{ name:	'mary katherines', work: 40, rest: 20 },
 		{ name:	'wipers', work: 60, rest: 30 },
 		{ name:	'reverse plank w/ alt. leg raises', work: 60, rest: 30 },
 		{ name:	'plank w/ shoulder taps', work: 60, rest: 30 },
@@ -360,7 +360,7 @@ var db = {
 		{ name:	'diamond pushups', work: 60, rest: 30 },
 		{ name:	'lateral high plank', work: 60, rest: 30 },
 		{ name:	'reverse elbow plank', work: 60, rest: 30 },
-		{ name:	'mary katherines' work: 60, rest: 30 },
+		{ name:	'mary katherines', work: 60, rest: 30 },
 		{ name:	'wipers', work: 20, rest: 10 },
 		{ name:	'reverse plank w/ alt. leg raises', work: 20, rest: 10 },
 		{ name:	'plank w/ shoulder taps', work: 20, rest: 10 },
@@ -377,6 +377,6 @@ var db = {
 		{ name:	'diamond pushups', work: 20, rest: 10 },
 		{ name:	'lateral high plank', work: 20, rest: 10 },
 		{ name:	'reverse elbow plank', work: 20, rest: 10 },
-		{ name:	'mary katherines' work: 20, rest: 0 }
+		{ name:	'mary katherines', work: 20, rest: 0 }
   ]
 }};
