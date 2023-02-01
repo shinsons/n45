@@ -128,7 +128,7 @@ var db = {
     { name: 'reverse crunch', work: 45, rest: 0 }
   ]
 },
-'2023-2-1': {
+'2023-2-01': {
   description: '9 exercises, 3 reps. 45 work. 20 rest. 30 work. 10 rest and 20 work and 1 minute of rest.',
   workout: [
     'side lunge w/ goblet racked DB',
@@ -171,7 +171,7 @@ var db = {
     { name: 'resistance band side walk', work:20, rest: 0 }
   ]
 },
-'2023-2-2': {
+'2023-2-02': {
   description: '4 pods. 3 reps. 60 work. 20 rest. 40 work. 30 rest. 20 work. 10 rest.',
   workout: [
     'Pod 1: bosu ball squats',
@@ -226,7 +226,7 @@ var db = {
     { name: 'Pod 4: single leg glute bridge', work: 20, rest: 0 }
   ]
 }, 
-'2023-2-3': {
+'2023-2-03': {
   description: '45 seconds work. 15 rest. 3 times. move stations after each set.',
   workout: [
     'supine, leg-lifted chest press',
@@ -269,7 +269,7 @@ var db = {
     { name: 'lateral raises', work: 45, rest: 0 }
   ]
 },
-'2023-2-4': {
+'2023-2-04': {
   description: '3 rounds, 40 work, 20 rest, 1 minute work, 30 rest and 20 seconds work 10 rest',
   workout: [ 
     'pushups',
