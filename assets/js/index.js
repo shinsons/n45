@@ -59,6 +59,7 @@ class WOD {
           this.done();
           return;
         }
+        addRemoveClass([app], 'blue', 'remove');
         addRemoveClass([app], 'red', 'remove');
         addRemoveClass([app], 'green');
         whistle.play();
@@ -76,7 +77,12 @@ class WOD {
           nextEl.innerHTML = 'Next Up: ' + this.wod.stations[0].name;
         }
         addRemoveClass([app], 'green', 'remove');
-        addRemoveClass([app], 'red');
+        if(this.currentStation.name.toLowerCase() === 'rest') {
+          addRemoveClass([app], 'blue');
+        }
+        else {
+          addRemoveClass([app], 'red');
+        }
         if(this.currentStation.rest === 2) {
           rest.play();
         }
