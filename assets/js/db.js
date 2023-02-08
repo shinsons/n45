@@ -1,5 +1,5 @@
 var db = {
-'2023-2-09': {
+'2023-2-08': {
   description: '9 exercises, 35 work, 20 rest twice each station. Twice through',
   workout: [
 		'incline pushups',
@@ -31,6 +31,7 @@ var db = {
 		{ name:	'sit out w/ reverse half burpee', work: 35, rest: 20 },
 		{ name:	'decline pushups', work: 35, rest: 20 },
 		{ name:	'decline pushups', work: 35, rest: 20 },
+    { name: 'Rest', work: 0, rest: 90 },
 		{ name:	'incline pushups', work: 35, rest: 20 },
 		{ name:	'incline pushups', work: 35, rest: 20 },
 		{ name:	'single leg squat w/ db front-raise hold', work: 35, rest: 20 },
@@ -51,7 +52,7 @@ var db = {
 		{ name:	'decline pushups', work: 35, rest: 0 }
   ]
 }, 
-'2023-2-10': {
+'2023-2-09': {
   description: '3 pods with 3 exercises each. 40 seconds work. 20 seconds rest. Perform 3 reps of each pod before moving to the next',
   workout: [
     'Pod 1: seated column pullups',
@@ -94,7 +95,7 @@ var db = {
    { name: 'Pod 3: shrimp squat', work: 40, rest: 0 }
   ]
 }, 
-'2023-2-11': {
+'2023-2-10': {
   description:'9 exercises with 3 repeats. 45 seconds work, 15 seconds rest, move after each station',
   workout: [
     'jackknives',
@@ -311,7 +312,7 @@ var db = {
 		{ name:	'dumbell thrusters', work: 45, rest: 0 }
   ]
 },
-'2023-2-08': {
+'2023-2-11': {
   description: '3 rounds, 40 work, 20 rest, 1 minute work, 30 rest and 20 seconds work 10 rest',
   workout: [ 
 		'wipers',
