@@ -746,4 +746,4 @@ var db = {
 		{ name:	'reverse elbow plank', work: 20, rest: 10 },
 		{ name:	'mary katherines', work: 20, rest: 0 }
   ]
-};
+}};
