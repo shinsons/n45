@@ -1,5 +1,5 @@
 var db = {
-'2023-3-21': {
+'2023-2-19': {
   description: '3 rounds, 45 work, 15 rest. Move after each station. 45 seconds rest betwen each round.',
   workout: [
     'side-plank w/ dumbell raise',
@@ -44,7 +44,7 @@ var db = {
     { name: '10 high knees + 2 burpees', work: 45, rest: 0 }
   ]
 }, 
-'2023-3-22': {
+'2023-2-20': {
   description: '3 pods with 3 exercises each. 60 seconds work. 30 seconds rest. Perform 3 reps of each pod before moving to the next. 30 seconds rest between pods',
   workout: [
     'Pod 1: high knees',
@@ -89,7 +89,7 @@ var db = {
     { name: 'Pod 3: spiders', work: 60, rest: 0 }
   ]
 }, 
-'2023-3-23': {
+'2023-2-21': {
   description:'9 exercises with 3 repeats. 45 seconds work, 15 seconds rest, move after each station. 40 seconds rest betwen each repeat.',
   workout: [
     'resistance band squat to overhead press',
@@ -134,7 +134,7 @@ var db = {
     { name: 'reverse crunch', work: 45, rest: 0 }
   ]
 },
-'2023-3-24': {
+'2023-2-22': {
   description: '9 exercises, 3 reps. 45 work. 20 rest. 30 work. 10 rest and 20 work and 1 minute of rest between each rep.',
   workout: [
     'side lunge w/ goblet racked DB',
@@ -179,7 +179,7 @@ var db = {
     { name: 'resistance band side walk', work:20, rest: 0 }
   ]
 },
-'2023-3-25': {
+'2023-2-23': {
   description: '4 pods. 3 reps. 60 work. 20 rest. 40 work. 30 rest. 20 work. 10 rest. 30 seconds rest between each pod.',
   workout: [
     'Pod 1: bosu ball squats',
@@ -237,7 +237,7 @@ var db = {
     { name: 'Pod 4: single leg glute bridge', work: 20, rest: 0 }
   ]
 }, 
-'2023-3-26': {
+'2023-2-24': {
   description: '45 seconds work. 15 rest. 3 times. move stations after each set. 45 seconds between each rep.',
   workout: [
     'supine, leg-lifted chest press',
@@ -282,7 +282,7 @@ var db = {
     { name: 'lateral raises', work: 45, rest: 0 }
   ]
 },
-'2023-3-27': {
+'2023-2-25': {
   description: '3 rounds, 40 work, 20 rest, 1 minute work, 30 rest and 20 seconds work 10 rest. 1 minute rest between each round',
   workout: [ 
     'pushups',
@@ -359,7 +359,7 @@ var db = {
     { name: 'mary katherines', work: 20, rest: 0 }
   ]
 },
-'2023-3-28': {
+'2023-2-26': {
   description: '9 exercises, 35 work, 20 rest twice each station. Twice through',
   workout: [
 		'incline pushups',
@@ -412,7 +412,7 @@ var db = {
 		{ name:	'decline pushups', work: 35, rest: 0 }
   ]
 }, 
-'2023-3-29': {
+'2023-2-27': {
   description: '3 pods with 3 exercises each. 40 seconds work. 20 seconds rest. Perform 3 reps of each pod before moving to the next',
   workout: [
     'Pod 1: seated column pullups',
@@ -455,7 +455,7 @@ var db = {
    { name: 'Pod 3: shrimp squat', work: 40, rest: 0 }
   ]
 }, 
-'2023-3-30': {
+'2023-2-28': {
   description:'9 exercises with 3 repeats. 45 seconds work, 15 seconds rest, move after each station',
   workout: [
     'jackknives',
@@ -498,7 +498,7 @@ var db = {
     { name: 'lateral plank w/ db raise', work: 45, rest:0 }
   ]
 },
-'2023-3-31': {
+'2023-3-01': {
   description: '9 exercises, 3 reps. 40/15, 30/15, 20/20. all reps in a station. 2 laps',
   workout: [
 		'wipers',
@@ -569,7 +569,7 @@ var db = {
     { name: 'russian twists', work:20, rest: 0 }
   ]
 },
-'2023-4-01': {
+'2023-3-02': {
   description: '4 pods. 3 reps 60/20, 40/30, 20/10. Complete all reps in a pod then move pods. 40 seconds rest between pods',
   workout: [
 		'Pod 1: full bench leg pikes',
@@ -627,7 +627,7 @@ var db = {
     { name:	'Pod 4: skaters', work: 20, rest: 0 }
   ]
 }, 
-'2023-4-02': {
+'2023-3-03': {
   description: '45 seconds work. 15 rest. 3 times. move stations after each station. 1 minute rest between each lap',
   workout: [
 		'single arm alt. dumbell snatch to press',
@@ -672,7 +672,7 @@ var db = {
 		{ name:	'dumbell thrusters', work: 45, rest: 0 }
   ]
 },
-'2023-4-03': {
+'2023-3-04': {
   description: '3 rounds, 40 work, 20 rest, 1 minute work, 30 rest and 20 seconds work 10 rest',
   workout: [ 
 		'wipers',
