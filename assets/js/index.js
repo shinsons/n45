@@ -118,11 +118,16 @@ function addRemoveClass(els, modification, remove) {
   }
 };
 
+function daysIntoYear(date){
+    return (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 24 / 60 / 60 / 1000;
+};
+
 function getWOD() {
   const today = new Date();
-  const wod_key = today.getFullYear() +
-    '-' + new Number(today.getMonth() + 1) + 
-    '-' + ('0' + today.getDate()).slice(-2);
+  let wod_key = daysIntoYear(today) % 28;
+  if(wod_key === 0) {
+    wod_key = 28;
+  }
   return db[wod_key]
 };
 
